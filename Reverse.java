@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package Practice1;
+package hash;
 
 import java.util.Scanner;
 
@@ -12,11 +12,18 @@ import java.util.Scanner;
  */
 public class Reverse {
     public static void main(String[] args) {
-        System.out.println("Enetr the string:");
-        String s1;
+        int n,i=1,d;
+        System.out.println("Enetr n:");
         Scanner sc=new Scanner(System.in);
-        s1=sc.nextLine();
-        String s2=new StringBuffer(s1).reverse().toString();
-        System.out.println("Reversed String is:"+s2);
-    }
+        n=sc.nextInt();
+        while(i<=10)
+        {
+            d=n*i;
+            System.out.println(+n+"*"+i+"="+d);
+            i++;
+        }
+        
+        
+        
+    }   
 }
